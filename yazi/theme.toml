@@ -1,0 +1,30 @@
+[mgr]
+preview_hovered = { reversed = true }
+hovered = { reversed = true }
+
+count_copied = { fg = "#1ceb83"}
+count_cut = { fg = "#ff6058" }
+count_selected = { fg = "#ffff4e" }
+
+border_style = { fg = "#5bf6ff" }
+
+[tabs]
+active = { fg = "#5bf6ff", bg = "#111118" }
+inactive = { fg = "#ff6058", bg = "#111118" }
+
+sep_inner = { open = "", close = "" }
+
+[mode]
+normal_main = { fg = "#ff6058", bg = "#111118" }
+normal_alt = { fg = "#ff6058", bg = "#111118" }
+select_main = { fg = "#111118", bg = "#ffff4e" }
+unset_main = {  fg = "#111118", bg = "#ffff4e" }
+
+[status]
+overall = { fg = "#ff6058" }
+
+perm_sep = { fg = "#ff6058" }
+perm_type = { fg = "#ff6058" }
+perm_read = { fg = "#ff6058" }
+perm_write = { fg = "#ff6058" }
+perm_exec = { fg = "#ff6058" }

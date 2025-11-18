@@ -1,0 +1,11 @@
+/* ----------------------------
+ * Cyberpunk 2077 color scheme
+ * --------------------------*/
+
+@define-color background	#111118;
+@define-color red			#ff6058;
+@define-color yellow 		#ffff4e;
+@define-color blue			#5bf6ff;
+@define-color green			#1ceb83;
+@define-color purple		#9e2bf5;
+@define-color white			#b3aca6;

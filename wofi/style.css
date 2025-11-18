@@ -1,0 +1,64 @@
+window {
+	font-size: 24px;
+	margin: 0px;
+	border: 2px solid #ff6058;
+	background-color: #111118;
+	font-family: "DepartureMono Nerd Font";
+}
+
+#input {
+	padding: 4px;
+	margin: 4px;
+	padding-left: 8px;
+	background: transparent;
+	border: none;
+	color: #ffff4e;
+	outline: none;
+	caret-color: #ffff4e;
+	text-shadow: 0 0 2px #ffff4e;
+}
+
+#input:focus{
+	box-shadow: none;
+}
+
+#input image {
+	color: #ffff4e;
+}
+
+#inner-box {
+	padding: 10px;
+}
+
+#outer-box {
+	margin: 20px;
+}
+
+#text {
+	color: #ff6058;
+	text-shadow: 0 0 2px #ff6058;
+}
+
+#entry:selected {
+	border: 2px solid #5bf6ff;
+	background: transparent;
+	background-color: #111118;
+	outline: none;
+	padding-left: 5px;
+}
+
+#text:selected {
+	color: #ffff4e;
+	border: none;
+	text-shadow: 0 0 2px #ffff4e;
+}
+
+scrollbar {
+	background: transparent;
+}
+
+scrollbar slider {
+	border: none;
+	border-radius: none;
+	background-color: #5bf6ff;
+}
